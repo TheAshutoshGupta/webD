@@ -6,33 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table{
+        table,td,tr,th{
+            border:1px solid black;
+            border-collapse: collapse;
+
+        }
+        th{
+            background-color: aqua;
+        }
+        caption {
+            padding: 10px;
+            caption-side: bottom;
 
         }
     </style>
 </head>
 <body>
     <table>
-        <tr>
-            <th>science</th>
-            <th>commerce</th>
-        </tr>
-        <tr>
-            <td>ashu</td>
-            <td>ayush</td>
-        </tr>
-        <tr>
-            <td>maths</td>
-            <td>business</td>
-        </tr>
-        <tr>
-            <td>programming</td>
-            <td>economics</td>
-        </tr>
-        <tr>
-            <td>UHV</td>
-            <td>accounts</td>
-        </tr>
+        <caption>this is table</caption>
+        <thead>
+            <tr>
+                <th>science</th>
+                <th>commerce</th>
+            </tr>
+        </thead>
+        
+        <tbody><tr>
+                <td>ashu</td>
+                <td>ayush</td>
+            </tr>
+            <tr>
+                <td>maths</td>
+                <td>business</td>
+            </tr>
+            <tr>
+                <td>programming</td>
+                <td>economics</td>
+            </tr>
+            <tr>
+                <td>UHV</td>
+                <td>accounts</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>PCM</td>
+            <td>com </td>
+        </tfoot>
+        
 
     </table>
 </body>
