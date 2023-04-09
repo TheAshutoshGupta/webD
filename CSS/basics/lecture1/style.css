@@ -1,0 +1,20 @@
+/* .f{font-size: small;}
+        .n{font-size:large;} */
+        
+        
+        /* .first-button:hover{
+            color:blue;
+        } */
+        /* #itsme:hover{
+            color:blueviolet;
+        } */
+        /* universal selector */
+        *{
+            font-style:italic;
+        }
+        a[href="google.com"]{
+            color:blueviolet;
+        }
+        h2{
+            text-shadow: 1px 1px 1px pink;
+        }
