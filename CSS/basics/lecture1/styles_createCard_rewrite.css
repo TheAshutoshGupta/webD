@@ -1,0 +1,57 @@
+* {
+  font-family: "Rubik", sans-serif;
+  margin-left: 50px;
+}
+
+.course-image {
+  border-radius: 5%;
+  margin: 0%;
+  margin-top: 50px;
+  text-shadow: 15px 15px 16px #171717;
+  filter: drop-shadow(10px 10px 20px lightgrey);
+}
+
+.course_name {
+  margin: 0px;
+}
+
+.course_name-first-line {
+  margin-top: 10px;
+}
+
+hr {
+  margin: 0px;
+  border: 0;
+  width: 20%;
+  position: relative;
+  height: 1px;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.price {
+  font-size: larger;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: inline;
+}
+
+.discounted_price {
+  color: #6674cc;
+}
+
+.real_price {
+  color: grey;
+}
+
+.real_price > s {
+  margin: 0px;
+}
+
+.discount {
+  background: #1dd1a1;
+  color: white;
+  font-size: 90%;
+  border: 0px;
+  border-radius: 4px;
+  margin: 10px 15px;
+}
